@@ -64,15 +64,12 @@
 		1B9412EC24D9645B00B43EC7 /* CustomHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				1B94130D24DA7D9600B43EC7 /* Delegates */,
+				1B94130C24DA7D8300B43EC7 /* Supporting Files */,
+				1B94130B24DA7D7200B43EC7 /* View */,
 				1B94130A24DA7BD600B43EC7 /* CustomHeaderView */,
 				1B94130924DA7BC600B43EC7 /* CustomFooterView */,
-				1B9412ED24D9645B00B43EC7 /* AppDelegate.swift */,
-				1B9412EF24D9645B00B43EC7 /* SceneDelegate.swift */,
-				1B9412F124D9645B00B43EC7 /* ViewController.swift */,
-				1B9412F324D9645B00B43EC7 /* Main.storyboard */,
-				1B9412F624D9645C00B43EC7 /* Assets.xcassets */,
 				1B9412F824D9645C00B43EC7 /* LaunchScreen.storyboard */,
-				1B9412FB24D9645C00B43EC7 /* Info.plist */,
 			);
 			path = CustomHeaderView;
 			sourceTree = "<group>";
@@ -93,6 +90,33 @@
 				1B94130724D9649900B43EC7 /* CustomHeaderView.xib */,
 			);
 			path = CustomHeaderView;
+			sourceTree = "<group>";
+		};
+		1B94130B24DA7D7200B43EC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B9412F124D9645B00B43EC7 /* ViewController.swift */,
+				1B9412F324D9645B00B43EC7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B94130C24DA7D8300B43EC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B9412F624D9645C00B43EC7 /* Assets.xcassets */,
+				1B9412FB24D9645C00B43EC7 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B94130D24DA7D9600B43EC7 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1B9412ED24D9645B00B43EC7 /* AppDelegate.swift */,
+				1B9412EF24D9645B00B43EC7 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomHeaderView/Info.plist;
+				INFOPLIST_FILE = "CustomHeaderView/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomHeaderView/Info.plist;
+				INFOPLIST_FILE = "CustomHeaderView/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
